@@ -11,11 +11,6 @@ p{
 
 }
 
-.fondo-a-color {
-background-image: linear-gradient(0deg, rgba(169,221,221,1) 0%, rgba(104,178,125,1) 100%);
-padding: 30px;
-}
-
 .centrado{
   text-align: center;
   display: flex;
@@ -35,9 +30,8 @@ padding-top: 30px;
 padding-bottom: 30px;
 }
 
-.caso-real-container{
+.textos{
 text-align: justify;
-background-color: white;
 width:100%;
 }
 
@@ -97,11 +91,13 @@ footer img {
   align-items: center;
   justify-content: center;
 }
+
 .imagen{
   margin: 0px;
   padding: 0px;
   max-width: 100%;
 }
+
 .imagen-120{
   margin: 0px;
   padding: 0px;
@@ -109,26 +105,38 @@ footer img {
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
 .imagen{
   margin: 0px;
   padding: 0px;
   max-width: 100%;
 }
+
 .fondo-main{
   background-image: linear-gradient(0deg, rgba(169,221,221,1) 0%, rgba(104,178,125,1) 100%);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
+
+.fondo-blanco{
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .texto-info{
 text-align: center;
 }
+
 .hover{
   height: 70px;
   text-align: center;
 }
+
 .hover:hover{
   background-color: rgb(164, 164, 164);
 }
+
 .boton{
   background-color: #59965B;
   border: 0px;
@@ -138,9 +146,11 @@ text-align: center;
   padding-top: 9px;
 
 }
+
 .boton:hover{
   background-color: #4b7d4d;
 }
+
 @media screen and (min-width:992px) {
   
   .imagen-grande{
