@@ -74,9 +74,17 @@ footer img {
 
 .boton{
   background-color: #67B17C;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px ;
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  border-color: green;
+  box-shadow: 5px 5px 5px lightgreen;
+}
+
+#imagen-boton{
+  text-align: center;
 }
 
