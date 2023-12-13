@@ -1,0 +1,82 @@
+
+p{
+  font-size: 24px;
+}
+
+.secciones{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 15px;
+
+}
+
+.fondo-a-color {
+background: linear-gradient(#67B17C,#67B17C,#a8e9ba,#9cc7f8, #87b5e9);
+padding: 30px;
+}
+
+.centrado{
+  text-align: center;
+  display: flex;
+  background-color: green;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+filter: invert(108%);
+}
+
+.carousel-item {
+background-color: white;
+height: 300px;
+padding-left: 70px;
+padding-right: 70px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.caso-real-container{
+text-align: justify;
+background-color: white;
+width:100%;
+}
+
+.descargar-seccion{
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px; 
+}
+
+footer img {
+  width: 200px; 
+  height: auto; 
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.links-footer {
+  font-size: 25px;
+
+}
+
+.boton{
+  background-color: #67B17C;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px ;
+}
+
