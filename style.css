@@ -12,7 +12,7 @@ p{
 }
 
 .fondo-a-color {
-background: linear-gradient(#67B17C,#67B17C,#a8e9ba,#9cc7f8, #87b5e9);
+background-image: linear-gradient(0deg, rgba(169,221,221,1) 0%, rgba(104,178,125,1) 100%);
 padding: 30px;
 }
 
@@ -72,7 +72,7 @@ footer img {
 
 }
 
-.boton{
+.boton2{
   background-color: #67B17C;
   padding: 50px;
   width: 200px;
@@ -88,3 +88,60 @@ footer img {
   text-align: center;
 }
 
+.centrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagen{
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+.imagen-120{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.imagen{
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+.fondo-main{
+  background-image: linear-gradient(0deg, rgba(169,221,221,1) 0%, rgba(104,178,125,1) 100%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.texto-info{
+text-align: center;
+}
+.hover{
+  height: 70px;
+  text-align: center;
+}
+.hover:hover{
+  background-color: rgb(164, 164, 164);
+}
+.boton{
+  background-color: #59965B;
+  border: 0px;
+  width: 50%;
+  height: 10%;
+  border-radius: 5px;
+  padding-top: 9px;
+
+}
+.boton:hover{
+  background-color: #4b7d4d;
+}
+@media screen and (min-width:992px) {
+  
+  .imagen-grande{
+      margin: 0px;
+      padding: 0px;
+      width: 120%;
+  }
+}
