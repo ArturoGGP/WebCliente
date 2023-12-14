@@ -197,6 +197,7 @@ text-align: center;
       margin: 0px;
       padding: 0px;
       width: 120%;
+      padding-right: 80px;
   }
 }
 
@@ -211,3 +212,21 @@ text-align: center;
   width: 410px;
 }
 
+.extension_small_screens{
+  height: 750px;
+  background-color: #D9D9D9;
+}
+
+.extension_medium_screens{
+  height: 420px;
+  background-color: #D9D9D9;
+}
+
+.extension_large_screens{
+  height: 330px;
+  background-color: #D9D9D9;
+}
+
+.fondo_FAQ{
+  background-color: #D9D9D9;
+}
